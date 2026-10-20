@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="닥터포켓 앱의 기기 내 저장, 백업, 외부 링크와 TestFlight 개인정보 처리 안내">
+  <title>닥터포켓 · 개인정보 처리방침</title>
+  <link rel="icon" type="image/png" href="icon.png">
+  <style>
+    :root { color-scheme: light; --navy:#112f46; --ink:#1b3547; --muted:#5b6e78; --line:#d9e1dd; --paper:#fffaf1; --link:#276474; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--navy); color:var(--ink); font:1rem/1.85 system-ui,-apple-system,"Noto Sans KR","Malgun Gothic",sans-serif; }
+    header { max-width:850px; margin:auto; padding:28px 24px 22px; color:var(--paper); }
+    header a { color:inherit; text-decoration:none; font-size:1.2rem; font-weight:700; }
+    main { max-width:850px; margin:0 auto 40px; padding:38px 44px; background:var(--paper); border-radius:16px; overflow-wrap:anywhere; }
+    h1 { margin:0 0 8px; font-size:1.8rem; line-height:1.45; letter-spacing:-.03em; }
+    h2 { margin:34px 0 12px; font-size:1.2rem; line-height:1.5; }
+    p,ul { margin:12px 0; }
+    ul { padding-left:1.4rem; }
+    li + li { margin-top:7px; }
+    a { color:var(--link); text-underline-offset:3px; }
+    a:focus-visible { outline:3px solid var(--link); outline-offset:4px; border-radius:2px; }
+    .meta { margin:0 0 22px; color:var(--muted); font-size:.9rem; }
+    .intro { border-left:3px solid var(--link); padding:2px 0 2px 18px; }
+    dl { margin:16px 0; padding:18px 20px; border:1px solid var(--line); border-radius:10px; }
+    dt { font-weight:700; }
+    dd { margin:3px 0 16px; }
+    dd:last-child { margin-bottom:0; }
+    footer { margin-top:32px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+    @media(max-width:650px) { header { padding:20px 20px 16px; } main { margin:0 12px 24px; padding:26px 22px; border-radius:12px; } h1 { font-size:1.55rem; } }
+    @media print { body { background:white; } header { color:var(--ink); padding:0; } main { max-width:none; padding:0; } a { color:var(--ink); } }
+  </style>
+</head>
+<body>
+  <header><a href="index.html" aria-label="닥터포켓 개인정보 처리방침">닥터포켓</a></header>
+  <main>
+    <h1>개인정보 처리방침</h1>
+    <p class="meta">시행일: 2026년 10월 7일 · 적용 대상: 닥터포켓 iOS·Android 앱 1.0.0 및 해당 TestFlight 베타</p>
+    <div class="intro">
+      <p>닥터포켓은 성인 의료진을 위한 참고 도구입니다. 회원가입과 로그인을 제공하지 않으며, 내 포켓과 사용자 자료를 기기에 저장합니다. 앱은 입력한 문구나 계산값을 운영자의 서버에 자동 전송하지 않습니다.</p>
+    </div>
+    <h2>1. 기기에 저장하는 정보</h2>
+    <dl>
+      <dt>내 포켓과 화면 설정</dt>
+      <dd>선택한 도구와 순서, 최근 사용한 도구 목록, 큰 글씨 설정을 저장합니다. 홈 구성과 최근 사용 표시를 위해 사용합니다.</dd>
+      <dt>내 문구와 내 체크리스트</dt>
+      <dd>사용자가 작성한 제목·본문·태그·체크리스트 항목과 자료 관리에 필요한 생성·수정 정보를 저장합니다. 작성한 자료를 다시 열고 편집하기 위해 사용합니다.</dd>
+      <dt>KCD 즐겨찾기</dt>
+      <dd>선택한 분류판과 코드 목록을 저장합니다. 자주 사용하는 코드를 다시 찾기 위해 사용합니다.</dd>
+    </dl>
+    <p>이 정보는 앱의 기기 내 저장공간에 보관합니다. 계산기 입력·결과와 검색어는 현재 기능에서 운영자에게 전송하거나 별도의 장기 기록으로 저장하지 않습니다. ‘최근 사용’에는 도구 목록이 저장되며 환자별 계산 기록은 저장하지 않습니다.</p>
+    <p>닥터포켓은 환자 기록 관리 서비스가 아닙니다. 내 문구·체크리스트에는 환자의 이름, 주민등록번호, 연락처, 진료기록처럼 개인을 식별할 수 있는 정보를 입력하지 마세요.</p>
+    <h2>2. 백업과 복원</h2>
+    <p>백업 내보내기를 선택하면 내 포켓 구성·큰 글씨 설정·내 문구·체크리스트·KCD 즐겨찾기와 백업 버전·생성 시각을 JSON 파일로 만듭니다. 최근 사용 목록은 현재 백업 파일에 포함하지 않습니다. 복원은 사용자가 선택한 닥터포켓 백업 파일을 기기에서 읽어 처리합니다.</p>
+    <p>파일은 운영체제의 파일 선택 화면에서 사용자가 고른 위치로 저장합니다. 운영자의 서버로 자동 업로드하지 않습니다. iCloud Drive, Google Drive 등 외부 저장소를 고르면 해당 서비스의 정책이 적용됩니다.</p>
+    <p>현재 앱의 백업 파일은 앱이 별도로 암호화하지 않은 JSON입니다. 파일을 열 수 있는 사람은 포함된 자료를 읽을 수 있으므로 신뢰하는 저장 위치를 선택하세요. 내보낸 파일과 외부에 전달한 사본은 앱에서 자료를 삭제하거나 앱을 제거해도 함께 삭제되지 않습니다.</p>
+    <h2>3. 복사와 외부 링크</h2>
+    <p>복사를 누르면 선택한 계산 결과·문구·참고 내용이 운영체제 클립보드에 저장됩니다. 다른 앱에 붙여넣거나 공유하면 그 앱과 서비스의 정책이 적용됩니다.</p>
+    <p>근거·출처 링크를 누르면 외부 브라우저나 앱에서 해당 페이지를 엽니다. 외부 사이트는 접속 IP, 브라우저 정보 등을 자체 정책에 따라 처리할 수 있습니다. 닥터포켓은 계산값이나 내 자료를 출처 링크의 주소에 자동으로 붙여 보내지 않습니다.</p>
+    <h2>4. 권한, 광고와 분석</h2>
+    <p>현재 앱은 카메라·마이크·위치·연락처를 사용하는 기능을 제공하지 않습니다. 백업 파일 가져오기와 저장에는 운영체제의 파일 선택 기능을 사용하며, 선택한 파일을 처리합니다.</p>
+    <p>현재 버전에는 광고 SDK, 운영자용 이용 분석 SDK, 자체 오류 수집 서버가 없습니다. 광고 식별자를 활용한 추적도 구현되어 있지 않습니다. 광고나 외부 수집 기능을 추가하는 버전에서는 실제 처리 항목과 동의·선택 방법을 이 방침에 먼저 반영합니다.</p>
+    <h2>5. TestFlight 베타에서 처리되는 정보</h2>
+    <p>TestFlight로 설치한 베타는 Apple의 배포·피드백 체계를 사용합니다. Apple은 설치와 실행 정보, 충돌·진단 정보, 기기·운영체제 정보 등을 처리할 수 있으며 일부 정보는 개발자가 App Store Connect에서 확인할 수 있습니다. 이는 앱에 운영자용 분석 SDK를 넣어 수집하는 것과 구분됩니다.</p>
+    <p>테스터가 피드백이나 스크린샷을 보내면 그 내용과 Apple이 함께 제공하는 기술 정보가 운영자에게 전달될 수 있습니다. 이메일 초대로 참여하면 이름과 이메일이 운영자에게 표시될 수 있고, 공개 링크로 참여하면 일반적으로 이름과 이메일이 익명으로 표시됩니다. 피드백에 환자 정보나 다른 사람의 개인정보를 포함하지 마세요.</p>
+    <p>운영자는 베타 피드백을 오류 확인과 수정에 사용합니다. 운영자가 별도로 내려받아 보관한 피드백 사본은 문제 확인 완료 후 3개월 이내 삭제합니다. Apple이 보관하는 정보의 항목·기간과 이용자 선택은 <a href="https://www.apple.com/legal/privacy/data/en/test-flight/" rel="noopener noreferrer">Apple의 TestFlight 개인정보 안내</a>를 따릅니다.</p>
+    <h2>6. 보관 기간과 삭제</h2>
+    <p>기기에 저장한 내 문구·체크리스트와 즐겨찾기는 앱에서 해당 자료를 삭제할 때까지 보관합니다. 내 포켓과 설정은 변경하거나 앱 데이터를 제거할 때까지 보관합니다. 앱을 삭제하면 운영체제의 동작에 따라 기기 내 앱 데이터가 제거됩니다. iOS의 ‘앱 정리하기’는 데이터를 남길 수 있으므로 ‘앱 삭제’와 구분해 주세요.</p>
+    <p>운영자가 기기에 저장된 자료를 원격으로 열람하거나 삭제하는 기능은 없습니다. 내보낸 백업, 클립보드 내용, 외부 서비스에 전달한 사본, 운영체제·클라우드 백업은 사용자가 해당 위치에서 직접 관리해야 합니다.</p>
+    <h2>7. 문의와 개인정보 권리 행사</h2>
+    <p>문의 이메일로 보낸 주소·문의 내용·첨부파일은 문의 확인과 답변에 사용합니다. 민감한 정보는 지우고 필요한 내용만 보내주세요. 운영자가 보관하는 문의 자료는 처리 완료 후 3개월 이내 삭제하며, 법령상 보존이 필요한 경우에는 해당 기간 보관합니다.</p>
+    <p>운영자가 보관하는 문의·피드백 자료의 열람·정정·삭제·처리정지 요청은 아래 연락처로 할 수 있습니다. 기기 내 자료는 앱에서 직접 관리할 수 있습니다. Apple 및 다른 외부 서비스의 자료는 해당 서비스가 제공하는 개인정보 관리 절차를 이용해 주세요.</p>
+    <dl>
+      <dt>운영자 및 개인정보 문의 담당</dt><dd>권재욱 · 닥터포켓 운영자</dd>
+      <dt>문의 이메일</dt><dd><a href="mailto:healthmanagementprepare@gmail.com">healthmanagementprepare@gmail.com</a></dd>
+    </dl>
+    <h2>8. 이 안내 페이지와 방침 변경</h2>
+    <p>이 안내 페이지에는 문의 입력창이나 운영자가 추가한 광고·이용 분석 코드를 두지 않습니다. 페이지 제공과 보안을 위해 호스팅 서비스가 접속 IP·브라우저·요청 정보 등을 처리할 수 있으며 해당 서비스의 정책이 적용됩니다.</p>
+    <p>앱 기능이나 개인정보 처리 방식이 바뀌면 이 페이지의 시행일과 내용을 갱신합니다. 추가 동의가 필요한 처리는 해당 기능을 사용하기 전에 별도로 안내합니다.</p>
+    <footer>닥터포켓 · 개인정보 처리방침 1.0<br>이 방침은 닥터포켓의 현재 기능을 기준으로 합니다.</footer>
+  </main>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4d401cabb79d1d7',t:'MTc5MjQ1NzIwMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
