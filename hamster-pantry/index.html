@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>문의·도움말 · 햄찌의 식량창고</title>
+<link rel="icon" href="icon.png">
+<style>
+:root {
+  --bg: #fff8ec; --card: #ffffff; --ink: #3b2a1a; --muted: #6f5a45;
+  --accent: #e0a526; --link: #8a5a00; --line: #ecdcc0; --todo: #b3261e;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1f1912; --card: #2a221a; --ink: #f3e8d8; --muted: #c2b29c;
+    --accent: #f0b840; --link: #f5c35a; --line: #40342a; --todo: #ff8a80;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow-wrap: anywhere;
+}
+:lang(ko) { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+  "Malgun Gothic", sans-serif; word-break: keep-all; }
+:lang(ja) { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+  "Yu Gothic UI", "Yu Gothic", "Meiryo", sans-serif; line-break: strict; }
+a { color: var(--link); }
+.wrap { max-width: 680px; margin: 0 auto; padding: 16px 16px 48px; }
+nav.langs { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; }
+nav.langs a {
+  padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px;
+  text-decoration: none; color: var(--muted); font-size: 14px;
+}
+nav.langs a[aria-current="page"] { border-color: var(--accent); color: var(--ink); font-weight: 700; }
+.app { display: flex; gap: 14px; align-items: center; margin: 24px 0 8px; }
+.app img { width: 56px; height: 56px; border-radius: 13px; flex: none; image-rendering: pixelated; }
+.app b { display: block; font-size: 18px; }
+.app span { color: var(--muted); font-size: 14px; }
+h1 { font-size: 26px; line-height: 1.35; margin: 20px 0 4px; }
+h2 { font-size: 18px; margin: 32px 0 6px; padding-top: 4px; border-top: 1px solid var(--line); }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 20px; }
+.box { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+  border-radius: 12px; padding: 12px 16px 12px 14px; margin: 16px 0; }
+.box h2 { border: 0; margin: 0 0 4px; padding: 0; font-size: 16px; }
+.box ul { margin: 0; padding-left: 20px; }
+p { margin: 0 0 10px; }
+dl { margin: 0; }
+dt { font-weight: 700; margin-top: 18px; }
+dd { margin: 4px 0 0; }
+.todo { color: var(--todo); font-weight: 700; }
+footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+  color: var(--muted); font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="langs"><a href="#ko" hreflang="ko" lang="ko">한국어</a><a href="#en" hreflang="en" lang="en">English</a><a href="#ja" hreflang="ja" lang="ja">日本語</a></nav>
+<main>
+<article id="ko" lang="ko">
+<div class="app"><img src="icon.png" alt=""><div><b>햄찌의 식량창고</b><span>햄스터 토리의 미로 수확 아케이드</span></div></div>
+<h1>문의·도움말</h1>
+<p>햄찌의 식량창고를 즐겨 주셔서 고마워요.</p>
+<p>궁금한 점이나 문제가 있으면 이메일로 알려 주세요: <a href="mailto:healthmanagementprepare@gmail.com">healthmanagementprepare@gmail.com</a></p>
+<p>기기 모델, iOS 버전, 앱 버전(예: 버전 1.0)을 함께 적어 주시면 더 빨리 도와드릴 수 있어요.</p>
+<h2>자주 묻는 질문</h2>
+<dl><dt>소리가 나지 않아요</dt><dd>iPhone이 무음 모드이면 게임 소리도 나지 않아요. 무음 모드를 끄고, 게임의 ⚙ 설정에서 효과음과 음악이 켜져 있는지 확인해 주세요.</dd><dt>처음부터 다시 하고 싶어요</dt><dd>기록 전체를 지우는 메뉴는 따로 없어요. 앱을 삭제했다가 다시 설치하면 처음부터 시작할 수 있어요. 이 기기의 기록은 모두 지워지고 되돌릴 수 없으니 주의해 주세요.</dd><dt>새 iPhone으로 바꾸면 기록도 옮겨지나요?</dt><dd>기록은 서버가 아니라 이 기기 안에 저장돼요. iPhone 백업으로 복원하거나 기기 간 이전을 하면 함께 옮겨질 수 있어요.</dd><dt>Game Center를 꼭 켜야 하나요?</dt><dd>아니요. 기본값은 꺼짐이고, 켜지 않아도 모든 단계와 모드를 즐길 수 있어요. 켜면 순위표와 업적을 볼 수 있어요. 게임의 ⚙ 설정에 있는 'Game Center 연결'에서 켜고 끌 수 있어요.</dd><dt>인터넷이 없어도 할 수 있나요?</dt><dd>네. 인터넷 없이도 플레이할 수 있어요. Game Center를 켜면 연결 후 무한수확 최고 기록, 별 개수와 업적을 다시 전송합니다. 오늘의 수확 점수는 같은 하루 안에서만 전송하며, 날짜가 지나면 순위표에 보내지 않습니다. 기기 안의 기록은 남습니다.</dd><dt>오늘의 수확은 언제 바뀌나요?</dt><dd>전 세계 공통으로 UTC 15:00에 바뀝니다. 한국에서는 매일 00:00입니다. 미로, 첫 도전 기록과 연속 기록에 같은 기준을 사용합니다.</dd></dl>
+<footer><a href="privacy.html#ko">개인정보 처리방침</a></footer>
+</article>
+<article id="en" lang="en">
+<div class="app"><img src="icon.png" alt=""><div><b>Hamster&#x27;s Pantry</b><span>A cozy maze harvest arcade</span></div></div>
+<h1>Support</h1>
+<p>Thank you for playing Hamster's Pantry.</p>
+<p>If you have a question or run into a problem, please email us: <a href="mailto:healthmanagementprepare@gmail.com">healthmanagementprepare@gmail.com</a></p>
+<p>Including your device model, iOS version and app version (for example, Version 1.0) helps us help you faster.</p>
+<h2>Frequently asked questions</h2>
+<dl><dt>There&#x27;s no sound</dt><dd>When your iPhone is in Silent mode, the game is silent too. Turn off Silent mode, then check that sound effects and music are on in the game's ⚙ Settings.</dd><dt>I want to start over</dt><dd>There is no menu that erases every record. Delete the app and install it again to start from the beginning. All records on this device will be erased and cannot be restored.</dd><dt>Will my records move to a new iPhone?</dt><dd>Records are kept on this device, not on a server. They may come along when you restore from an iPhone backup or transfer data between devices.</dd><dt>Do I need Game Center?</dt><dd>No. It is off by default, and every stage and mode works without it. Turn it on to see leaderboards and achievements, with the 'Game Center' switch in the game's ⚙ Settings.</dd><dt>Can I play offline?</dt><dd>Yes. With Game Center on, best Endless records, stars and achievements are retried when connected. A Today's Harvest score is sent only during its competition day; expired daily scores stay on the device and are not sent to a later leaderboard.</dd><dt>When does Today&#x27;s Harvest reset?</dt><dd>The worldwide day resets at 15:00 UTC (midnight in Korea and Japan). The maze, first recorded attempt and streak share this boundary.</dd></dl>
+<footer><a href="privacy.html#en">Privacy Policy</a></footer>
+</article>
+<article id="ja" lang="ja">
+<div class="app"><img src="icon.png" alt=""><div><b>ハムスターの食料庫</b><span>ハムスターの迷路あつめアーケード</span></div></div>
+<h1>お問い合わせ・ヘルプ</h1>
+<p>ハムスターの食料庫で遊んでいただき、ありがとうございます。</p>
+<p>ご質問や不具合は、メールでお知らせください：<a href="mailto:healthmanagementprepare@gmail.com">healthmanagementprepare@gmail.com</a></p>
+<p>端末の機種、iOSのバージョン、アプリのバージョン（例：バージョン1.0）を書き添えていただくと、より早くご案内できます。</p>
+<h2>よくある質問</h2>
+<dl><dt>音が出ません</dt><dd>iPhoneが消音モードのときは、ゲームの音も鳴りません。消音モードをオフにして、ゲームの⚙設定で効果音と音楽がオンになっているか確認してください。</dd><dt>最初からやり直したい</dt><dd>すべての記録を消すメニューはありません。アプリを削除して入れ直すと、最初から始められます。この端末の記録はすべて消え、元に戻せないのでご注意ください。</dd><dt>新しいiPhoneに記録を移せますか？</dt><dd>記録はサーバーではなく、この端末の中に保存されています。iPhoneのバックアップから復元したり、端末間でデータを移行したりすると、一緒に移る場合があります。</dd><dt>Game Centerは必要ですか？</dt><dd>いいえ。初期設定はオフで、オンにしなくてもすべてのステージとモードを遊べます。オンにするとランキングと実績を見られます。ゲームの⚙設定にある「Game Center連携」で切り替えられます。</dd><dt>オフラインでも遊べますか？</dt><dd>はい。Game Centerがオンなら、接続後に無限収穫の最高記録・星の数・実績を再送します。今日の収穫の得点は同じ競技日の間だけ送信し、日付が変わった後はランキングに送りません。端末内の記録は残ります。</dd><dt>今日の収穫はいつ切り替わりますか？</dt><dd>全世界共通でUTC 15:00、日本時間では毎日00:00に切り替わります。迷路、最初の記録対象の挑戦、連続記録は同じ基準です。</dd></dl>
+<footer><a href="privacy.html#ja">プライバシーポリシー</a></footer>
+</article>
+</main>
+</div>
+<script>
+(function () {
+  var langs = ["ko", "en", "ja"], titles = {"ko": "문의·도움말 · 햄찌의 식량창고", "en": "Support · Hamster's Pantry", "ja": "お問い合わせ・ヘルプ · ハムスターの食料庫"};
+  function pick() {
+    var hash = location.hash.slice(1);
+    if (langs.indexOf(hash) >= 0) return hash;
+    var prefs = navigator.languages || [navigator.language || ''];
+    for (var i = 0; i < prefs.length; i++) {
+      var code = String(prefs[i]).slice(0, 2).toLowerCase();
+      if (langs.indexOf(code) >= 0) return code;
+    }
+    return 'en';
+  }
+  function show() {
+    var lang = pick();
+    document.documentElement.lang = lang;
+    document.title = titles[lang];
+    langs.forEach(function (l) {
+      document.getElementById(l).hidden = l !== lang;
+      document.querySelector('nav.langs a[href="#' + l + '"]')
+        .setAttribute('aria-current', l === lang ? 'page' : 'false');
+    });
+  }
+  show();
+  window.addEventListener('hashchange', function () { show(); window.scrollTo(0, 0); });
+})();
+</script>
+</body>
+</html>
